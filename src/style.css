@@ -24,6 +24,23 @@
 }
 
 .nav-menu li:hover {
-    background-color: red;
+    background-color: burlywood;
     cursor: pointer;
+    color:black;
+}
+
+.task-container {
+    width: 80%;
+    margin-inline: auto;
+    background-color: burlywood;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.task-container h1 {
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
 }

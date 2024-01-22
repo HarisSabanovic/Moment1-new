@@ -44,3 +44,9 @@
     text-decoration: underline;
     margin-bottom: 10px;
 }
+
+#current-time {
+    font-size: 18px;
+    text-align: center;
+    margin: 0.5em;
+}

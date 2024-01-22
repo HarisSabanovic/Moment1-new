@@ -23,10 +23,14 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.nav-menu a {
+    text-decoration: none;
+    color: white;
+}
+
 .nav-menu li:hover {
     background-color: burlywood;
     cursor: pointer;
-    color:black;
 }
 
 .task-container {
@@ -49,4 +53,19 @@
     font-size: 18px;
     text-align: center;
     margin: 0.5em;
+}
+
+/*Css kod för "pictures sida"*/
+
+picture img {
+    width: 70%;
+    max-width: 100%;
+    padding: 10px;
+}
+
+.picture-container {
+    width: 90%;
+    margin-inline: auto;
+    background-color: aliceblue;
+    text-align: center;
 }
